@@ -1,11 +1,21 @@
 {
-  "name": "holiday-shared-models",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@chrisb-dev/holiday-shared-models",
+  "version": "1.0.4",
+  "description": "Typescript interfaces to be shared between the front and backend",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Berry <chrisberry4545@googlemail.com> (http://chrisbdev.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisberry4545/holiday-shared-models.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisberry4545/holiday-shared-models/issues"
+  },
+  "homepage": "https://github.com/chrisberry4545/holiday-shared-models#readme"
 }
