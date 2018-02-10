@@ -1,5 +1,3 @@
-export * from './urls';
+export * from './data';
 
-export {
-  HolidayResultInterface,
-} from './holiday-result.interface';
+export * from './urls';
