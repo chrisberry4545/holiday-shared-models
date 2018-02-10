@@ -11,6 +11,10 @@ export {
 } from './country.interface';
 
 export {
+  FlightTimesInterface,
+} from './flight-times.interface';
+
+export {
   FoodTypeInterface,
 } from './food-type.interface';
 
