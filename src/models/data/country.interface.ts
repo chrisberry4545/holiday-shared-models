@@ -3,7 +3,7 @@ import {
 } from './';
 
 export interface CountryInterface {
-  id: string;
+  _id?: string;
   continent: ContinentInterface;
   name: string;
 }

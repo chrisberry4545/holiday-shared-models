@@ -1,4 +1,4 @@
 export interface ActivityInterface {
-  id: string;
+  _id?: string;
   name: string;
 }

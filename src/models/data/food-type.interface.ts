@@ -1,4 +1,4 @@
 export interface FoodTypeInterface {
-  id: string;
+  _id?: string;
   name: string;
 }

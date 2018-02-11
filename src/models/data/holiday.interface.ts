@@ -5,9 +5,9 @@ import {
 } from './';
 
 export interface HolidayInterface {
+  _id?: string;
   activities: ActivityInterface[];
   country: CountryInterface;
   foodTypes: FoodTypeInterface[];
-  id: string;
   name: string;
 }
