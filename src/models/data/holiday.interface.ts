@@ -8,6 +8,5 @@ export interface HolidayInterface {
   _id?: string;
   activities: ActivityInterface[];
   country: CountryInterface;
-  foodTypes: FoodTypeInterface[];
   name: string;
 }
