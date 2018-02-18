@@ -1,6 +1,7 @@
 import {
   ContinentInterface,
   FoodTypeInterface,
+  TemperatureInterface,
 } from './';
 
 export interface CountryInterface {
@@ -8,4 +9,5 @@ export interface CountryInterface {
   continent: ContinentInterface;
   foodTypes: FoodTypeInterface[];
   name: string;
+  monthlyTemperatures: { [key: number]: TemperatureInterface };
 }

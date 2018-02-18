@@ -1,6 +1,10 @@
 export {
-  ActivityInterface,
-} from './activity.interface';
+  ActivityCategoryInterface,
+} from './activity-category.interface';
+
+export {
+  TemperatureInterface,
+} from './temperature.interface';
 
 export {
   ContinentInterface,
@@ -13,6 +17,10 @@ export {
 export {
   FlightTimesInterface,
 } from './flight-times.interface';
+
+export {
+  FlightInterface,
+} from './flight.interface';
 
 export {
   FoodTypeInterface,

@@ -1,12 +1,14 @@
 import {
-  ActivityInterface,
+  ActivityCategoryInterface,
   CountryInterface,
+  FlightInterface,
   FoodTypeInterface,
 } from './';
 
 export interface HolidayInterface {
   _id?: string;
-  activities: ActivityInterface[];
+  activities: ActivityCategoryInterface[];
   country: CountryInterface;
+  flight: FlightInterface;
   name: string;
 }
