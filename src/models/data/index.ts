@@ -11,6 +11,10 @@ export {
 } from './continent.interface';
 
 export {
+  CostRangeInterface,
+} from './cost-range.interface';
+
+export {
   CountryInterface,
 } from './country.interface';
 
