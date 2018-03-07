@@ -1,6 +1,7 @@
 export interface UserInputInterface {
   howImportantAreActivities: number;
   howImportantAreCosts: number;
+  howImportantAreFlightTimes: number;
   howImportantIsFood: number;
   howImportantIsTemperature: number;
 
