@@ -1,7 +1,12 @@
 export interface UserInputInterface {
-  selectedActivityTypes: string[];
-  selectedCostRange: string;
-  selectedFoodTypeIds: string[];
+  howImportantAreActivities: number;
+  howImportantAreCosts: number;
+  howImportantIsFood: number;
+  howImportantIsTemperature: number;
+
+  selectedActivityTypeIds?: string[];
+  selectedCostRangeId?: string;
+  selectedFoodTypeIds?: string[];
   selectedFlightTimeId: string;
-  selectedTemperatureId: string;
+  selectedTemperatureId?: string;
 }
