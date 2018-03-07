@@ -15,6 +15,10 @@ export {
 } from './cost-range.interface';
 
 export {
+  CountryFactInterface,
+} from './country-fact.interface';
+
+export {
   CountryInterface,
 } from './country.interface';
 
@@ -33,6 +37,10 @@ export {
 export {
   FoodTypeInterface,
 } from './food-type.interface';
+
+export {
+  HolidayHighlightInterface,
+} from './holiday-highlight.interface';
 
 export {
   HolidayInterface,

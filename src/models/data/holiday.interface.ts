@@ -3,6 +3,7 @@ import {
   CountryInterface,
   FlightInterface,
   FoodTypeInterface,
+  HolidayHighlightInterface,
 } from './';
 
 export interface HolidayInterface {
@@ -10,5 +11,6 @@ export interface HolidayInterface {
   activities: ActivityCategoryInterface[];
   country: CountryInterface;
   flight: FlightInterface;
+  highlights: HolidayHighlightInterface[];
   name: string;
 }
