@@ -2,7 +2,7 @@ import {
   ActivityCategoryInterface,
   CostRangeInterface,
   FlightTimesInterface,
-  FoodTypeInterface,
+  FoodImportanceInterface,
   TemperatureInterface,
 } from './../';
 
@@ -10,6 +10,6 @@ export interface FormOptionsInterface {
   possibleActivities: ActivityCategoryInterface[];
   possibleCostRanges: CostRangeInterface[];
   possibleFlightTimes: FlightTimesInterface[];
-  possibleFoodTypes: FoodTypeInterface[];
+  possibleFoodImportantOptions: FoodImportanceInterface[];
   possibleTemperatures: TemperatureInterface[];
 }

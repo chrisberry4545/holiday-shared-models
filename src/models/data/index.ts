@@ -27,6 +27,10 @@ export {
 } from './flight.interface';
 
 export {
+  FoodImportanceInterface,
+} from './food-importance.interface';
+
+export {
   FoodTypeInterface,
 } from './food-type.interface';
 

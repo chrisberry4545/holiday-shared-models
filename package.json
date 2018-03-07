@@ -1,6 +1,6 @@
 {
   "name": "@chrisb-dev/holiday-shared-models",
-  "version": "1.0.31",
+  "version": "1.0.35",
   "description": "Typescript interfaces to be shared between the front and backend",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
