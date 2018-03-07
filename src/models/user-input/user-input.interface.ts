@@ -9,5 +9,6 @@ export interface UserInputInterface {
   selectedCostRangeId?: string;
   selectedFoodTypeIds?: string[];
   selectedFlightTimeId: string;
+  selectedMonthNumber: number;
   selectedTemperatureId?: string;
 }
