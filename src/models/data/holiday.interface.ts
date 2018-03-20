@@ -9,6 +9,7 @@ import {
 export interface HolidayInterface {
   _id?: string;
   activities: ActivityCategoryInterface[];
+  mainImageUrl: string;
   country: CountryInterface;
   flight: FlightInterface;
   highlights: HolidayHighlightInterface[];
