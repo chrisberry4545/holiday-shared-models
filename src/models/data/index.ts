@@ -15,10 +15,6 @@ export {
 } from './cost-range.interface';
 
 export {
-  CountryFactInterface,
-} from './country-fact.interface';
-
-export {
   CountryInterface,
 } from './country.interface';
 
