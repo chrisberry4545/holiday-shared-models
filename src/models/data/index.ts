@@ -3,6 +3,10 @@ export {
 } from './activity-category.interface';
 
 export {
+  LatLongInterface,
+} from './lat-long.interface';
+
+export {
   TemperatureInterface,
 } from './temperature.interface';
 
