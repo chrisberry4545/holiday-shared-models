@@ -3,6 +3,14 @@ export {
 } from './activity-category.interface';
 
 export {
+  BadgeInterface,
+} from './badge.interface';
+
+export {
+  BadgeSetInterface,
+} from './badge-set.interface';
+
+export {
   LatLongInterface,
 } from './lat-long.interface';
 

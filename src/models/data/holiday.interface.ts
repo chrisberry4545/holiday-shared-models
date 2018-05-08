@@ -1,5 +1,6 @@
 import {
   ActivityCategoryInterface,
+  BadgeSetInterface,
   CountryInterface,
   FlightInterface,
   FoodTypeInterface,
@@ -9,6 +10,7 @@ import {
 export interface HolidayInterface {
   _id?: string;
   activities: ActivityCategoryInterface[];
+  badges?: BadgeSetInterface;
   description?: string;
   mainImageUrl: string;
   country: CountryInterface;
