@@ -17,4 +17,5 @@ export interface HolidayInterface {
   flight: FlightInterface;
   highlights: HolidayHighlightInterface[];
   name: string;
+  score?: number;
 }
